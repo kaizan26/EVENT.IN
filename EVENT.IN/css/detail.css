@@ -37,7 +37,50 @@ body{
     min-height: 300px;
     border-radius: 50px;
 }
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size:1.5em;
+    justify-content:center;
+    padding:0 .2em;
+    text-align:center;
+    width:5em;
+  }
+  
+  .star-rating input {
+    display:none;
+  }
+  
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+  }
+  
+  .star-rating :checked ~ label {
+    color:#f90;
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:#fc0;
+  }
+  .thumbnail {
+    padding:0px;
+}
+.detail .konten .btn{
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.checked {
+    color: orange;
+  }
 .page-footer{
     background: linear-gradient(59deg, #3A6073, #16222A, #121212);
     color: white;
+}
+.page-footer p{
+    padding-top: -1px;
 }
