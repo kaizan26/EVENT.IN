@@ -1,0 +1,46 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+body{
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #121212;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(0deg,#2980B9, #6DD5FA, #FFFFFF);
+    border-radius: 10px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+.navbar-brand{
+    font-family: 'Lekton';
+}
+.menu{
+    margin-top: -30px;
+}
+.menu .container .media{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.3);
+    background-color: #121212;
+    margin: 15px 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.menu .container .btn{
+    float: right;
+    margin: 35px 20px 0;
+}
+.page-footer{
+    background: linear-gradient(59deg, #3A6073, #16222A, #121212);
+    color: white;
+}

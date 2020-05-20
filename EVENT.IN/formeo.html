@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event Organizer</title>
+    <!-- FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/formeo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">EVENT.IN</a>
+        </div>
+    </nav>
+    <div class="box">
+        <h2>Form Detail Event Organizer</h2>
+        <form>
+            <div class="form-row">
+              <div class="col-md mb-3">
+                <label for="validationDefault01">Foto Profil</label>
+                <input type="file" class="form-control" accept="image/*" id="validationDefault01" value="" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md mb-3">
+                <label for="validationDefault02">Tentang Event Organizer Anda</label>
+                <textarea class="form-control" id="validationDefault02" rows="2" required></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-9 mb-3">
+                  <label for="validationDefault03">Project Terdahulu</label>
+                  <textarea class="form-control" id="validationDefault03" rows="3"></textarea>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationDefault04">Foto Kegiatan</label>
+                  <input type="file" class="form-control" id="validationDefault04" value="">
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Ubah Detail</button>
+          </form>
+    </div>
+</body>
+</html>
