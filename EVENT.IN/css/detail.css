@@ -35,7 +35,7 @@ body{
     background-color: #121212;
     backdrop-filter: blur(3px);
     min-height: 300px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .star-rating {
     display: flex;

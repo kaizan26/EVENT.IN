@@ -19,11 +19,11 @@ body{
     backdrop-filter: blur(10px);
     width: 600px;
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-    padding: 30px 50px;
+    padding: 20px 50px 0;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.3);
 }
