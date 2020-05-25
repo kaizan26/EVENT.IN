@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">EVENT.IN</a>
+        </div>
+    </nav>
+    <div class="profile-box">
+        <h1>Profile</h1>
+        <img src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="">
+        <form>
+            <div class="form-row">
+              <div class="col-md mb-3">
+                <label for="profilepic">Edit Foto</label>
+                <input type="file" class="form-control" id="profilepic" value="">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault01">Nama Depan</label>
+                <input type="text" class="form-control" id="validationDefault01" value="">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault02">Nama Belakang</label>
+                <input type="text" class="form-control" id="validationDefault02" value="">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault04">Kecamatan</label>
+                <select class="custom-select" id="validationDefault04">
+                  <option selected disabled value="">Choose...</option>
+                  <option>Balikpapan Utara</option>
+                  <option>Balikpapan Barat</option>
+                  <option>Balikpapan Selatan</option>
+                  <option>Balikpapan Timur</option>
+                  <option>Balikpapan Tengah</option>
+                  <option>Balikpapan Kota</option>
+                </select>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault05">Nomor Telepon</label>
+                <input type="text" class="form-control" id="validationDefault05">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationDefaultUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationDefault06">Password</label>
+                    <input type="password" class="form-control" id="validationDefault06">
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Simpan</button>
+          </form>
+    </div>
+</body>
+</html>
